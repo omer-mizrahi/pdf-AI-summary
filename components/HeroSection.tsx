@@ -30,13 +30,13 @@ export default function HeroSection() {
             text-center px-4 lg:px-0 lx:max-w-4xl text-gray-500">Get a beautiful summary reel of the document in seconds</h2>
             <Button variant={"link"}
                 className="text-white rounded-full text-sm mt-6 sm:text-lg lg:text-xl
-                px-6 sm:px-8 lg:px-10 py-4 sm:py-6 lg:py-8 lg:mt-16
+                px-6 sm:px-8 lg:px-10 py-4 sm:py-4 lg:py-6 lg:mt-12
                 bg-linear-to-r from-slate-800 to-rose-500
                 hover:from-rose-500 hover:to-slate-800 hover:-no-underline font-bold
                 transition-colors duration-600 ease-in-out shadow-lg"
             >
                 <Link href={"/#pricing"} className="flex items-center gap-2">
-                    <span>Try Perra</span>
+                    <span className="text-base">Try Perra</span>
                     <ArrowRight className="animate-pulse" />
                 </Link>
             </Button>
