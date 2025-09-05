@@ -15,6 +15,7 @@ export default function Home() {
         <HowItWorksSection />
         <PricingSection />
         <CtaSection />
+        {/* <CTA /> */}
       </div>
 
     </div>
